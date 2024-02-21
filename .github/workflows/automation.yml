@@ -5,7 +5,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: "0 8,01:00 * * *"
+    - cron: "0 8,1 * * *"
 
 jobs:
   zotero-to-readwise-automation:
